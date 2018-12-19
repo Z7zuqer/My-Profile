@@ -1,0 +1,272 @@
+
+<!-- saved from url=(0062)http://dasai.lanqiao.cn/api/stu/award/personal/app/24695451822 -->
+<html ng-app="lanqiaoApp" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style><script src="./蓝桥杯个人软件类省赛金奖_files/hm.js"></script><script type="text/javascript">
+<!--
+
+//-->
+/**
+ * 由于Api地址各环境不同,故写些配置文件,更改时方便配置.
+ */
+window.$STATIC_URL="http://static.lanqiao.cn";
+window.$DOWN_URL="http://down.lanqiao.cn";
+// 蓝桥帐户域名
+window.$URL_ACCOUNT = "http://dasai.lanqiao.cn";
+// 蓝桥杯大赛域名
+window.$URL_LANQIAOBEIDASAI = "http://dasai.lanqiao.cn";
+// 蓝桥第三方接口处理域名
+window.$URL_THIRDINTERFACE = "http://dasai.lanqiao.cn";
+// 蓝桥订单域名
+window.$URL_ORDER = "http://dasai.lanqiao.cn";
+
+// 图片获得 （URL后追加ID）
+window.$URL_DOWNLOAD_IMAGE = "http://dasai.lanqiao.cn"+"/api/action/oss/getImageStream/";
+
+// 首页接口域名
+window.$URL_INDEX_NEWS = "http://10.251.196.135";
+window.$MNS_LANQIAO_URL="http://mns.lanqiao.cn";
+</script>
+
+
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>我的订单</title>
+    <!-- lanqiao logo start --> <link rel="icon" type="image/x-icon" href="http://static.lanqiao.cn/common/image/favicon.ico"> <link rel="shortcut icon" type="image/x-icon" href="http://static.lanqiao.cn/common/image/favicon.ico"> <!-- lanqiao logo end -->
+    <link rel="stylesheet" type="text/css" href="./蓝桥杯个人软件类省赛金奖_files/basic.css">
+    <link rel="stylesheet" type="text/css" href="./蓝桥杯个人软件类省赛金奖_files/show.css">
+    <link rel="stylesheet" type="text/css" href="./蓝桥杯个人软件类省赛金奖_files/login_sub.css">
+    <script src="./蓝桥杯个人软件类省赛金奖_files/jquery-1.9.1.min.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/laydate.js"></script><link type="text/css" rel="stylesheet" href="./蓝桥杯个人软件类省赛金奖_files/laydate.css"><link type="text/css" rel="stylesheet" href="./蓝桥杯个人软件类省赛金奖_files/laydate(1).css" id="LayDateSkin">
+    
+    <script src="./蓝桥杯个人软件类省赛金奖_files/public.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/form.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/dialog.js"></script>
+
+    <script src="./蓝桥杯个人软件类省赛金奖_files/angular.min.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/angular-route.min.js"></script>
+
+    <script src="./蓝桥杯个人软件类省赛金奖_files/url_config.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/lanqiao_common.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/app.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/form_util.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/lanqiao_unit.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/pagination.js"></script>
+    <script src="./蓝桥杯个人软件类省赛金奖_files/h5.time.js"></script>
+	<link rel="stylesheet" href="./蓝桥杯个人软件类省赛金奖_files/addstyle.css">
+		
+	</head>
+	<body>
+		<!--头部位置开始-->
+		<script src="./蓝桥杯个人软件类省赛金奖_files/index_top.js"></script>
+   <script>window.currentUser={"accountAlgorithm":"","accountEmail":"","accountId":24695067918,"accountLastLoginIp":"10.45.42.254","accountLastLoginTime":{"date":3,"day":4,"hours":9,"minutes":9,"month":10,"seconds":17,"time":1478135357000,"timezoneOffset":-480,"year":116},"accountLoginname":"","accountMobile":"18932259985","accountNickname":"LQ645843","accountPassword":"","accountPasswordStatus":false,"accountPortrait":"","accountSalt":"","accountValidStatus":true,"authStatus":4,"createTime":{"date":3,"day":4,"hours":9,"minutes":9,"month":10,"seconds":17,"time":1478135357000,"timezoneOffset":-480,"year":116},"dataVersion":1,"identityId":1,"identityName":"","identityRealname":"","isHonor":0,"lanqiaoProjectId":2,"lastModifiedTime":{"date":3,"day":4,"hours":9,"minutes":9,"month":10,"seconds":17,"time":1478135357000,"timezoneOffset":-480,"year":116},"loginType":"","univName":""}</script>
+    <div class="navigation">
+			<a class="home" href="http://dasai.lanqiao.cn/pages/dasai/index.html"></a>
+			<ul class="menu">
+				<li class="link"><a href="http://dasai.lanqiao.cn/pages/dasai/index.html">首页</a></li>
+				<li class="link"><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/curren_item.html">本届赛事</a></li>
+				<li class="link">
+					<a href="javascript:;">关于大赛</a>
+					<ul>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news.html?id=19">大赛新闻</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/notes.html?id=20">大赛通知</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=614">大赛章程</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=622">奖项设置</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=623">竞赛科目</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=624">比赛大纲</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=625">本届通知</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=636">团队赛通知</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=650">获奖名单</a></li>
+                      	<li><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/notes.html?id=51">赛点名单</a></li>
+					</ul>
+				</li>
+				<li class="link">
+					<a href="http://dasai.lanqiao.cn/pages/dasai/news_detail.html?id=644">辅导资料</a>
+					<!-- <ul class="text-center">  
+						<li><a target="_blank" href="/pages/dasai/news_detail.html?id=644">辅导资料</a></li>
+	                    <li><a target="_blank" href="/pages/dasai/news_detail.html?id=647">辅导视频</a></li>
+					</ul>
+					 -->
+				</li>
+				<li class="link"><a target="_blank" href="http://lx.lanqiao.cn/">练习系统</a></li>
+				<li class="link"><a target="_blank" href="http://www.lanqiao.org/">大蓝桥</a></li>
+				<li class="link"><a target="_blank" href="http://dasai.lanqiao.cn/pages/dasai/tell_ours.html">联系我们</a></li>
+				<li class="link"><a target="_blank" href="http://www.lanqiaobei.cn/">ENGLISH</a></li>	
+				<li class="link newsHead" id="newsHead" style="">
+					<a href="http://dasai.lanqiao.cn/pages/account/message.html"><span class="newsNum" id="newsNum" style="display: inline;">1</span>
+						<div class="news-msg" id="news-msg">有新的消息</div>
+					</a>
+				</li>
+									
+				<li id="login_logined" class="user" style="">
+					<div class="head">
+						 <span style="display:none;">999</span>
+						 <img src="./蓝桥杯个人软件类省赛金奖_files/0.png">
+						<p>LQ645843</p>
+					</div>						
+					
+					<ul id="login_logined_stu" identityid="1">
+						<li><a href="http://dasai.lanqiao.cn/pages/dasai/stupersonalauth.html">个人认证</a></li>								
+						<li authstatus="4"><a href="http://dasai.lanqiao.cn/pages/dasai/personal_my_dasai.html">我的大赛</a></li>
+						<li authstatus="4"><a href="http://dasai.lanqiao.cn/api/stu/award/li">获奖查询</a></li>
+						<li authstatus="4"><a href="http://dasai.lanqiao.cn/pages/dasai/order/myorder.html">我的订单</a></li>						
+						<li><a href="http://dasai.lanqiao.cn/pages/account/message.html#/">我的消息</a></li>
+						<li><a href="http://dasai.lanqiao.cn/pages/account/stu_address.html">我的地址</a></li>						
+						<li><a href="http://dasai.lanqiao.cn/pages/account/myaccount_headimg.html">账号设置</a></li>
+
+						<li class="quit"><a href="javascript:void(0);">退出</a></li>
+					</ul>
+				</li>				
+			</ul>
+		</div>
+		<a href="http://dasai.lanqiao.cn/api/third/weixinregister" target="_blank"><span id="weixin_login_a_to"></span></a>
+		<!-- 微课banner开始 -->
+		<style>
+			.weike-banner{margin:0 auto 30px;width:1130px;display:none;}
+		</style>
+		<!-- 
+		<div class="weike-banner">
+			<a target="_blank" href="http://weike2.lanqiao.org/promo/promo01/index_dasaibaoming.html"><img src="http://static.lanqiao.cn/dasai/images/weike/banner.png"/></a>
+		</div>
+		 -->
+		<div class="weike-banner" style="display: block;">
+			<a target="_blank" href="https://wj.qq.com/s/1985133/e6ac"><img src="./蓝桥杯个人软件类省赛金奖_files/ok-2-01.png"></a>
+		</div>
+		<!-- 微课banner结束 -->
+<script>
+	
+	//if(location.href.indexOf("test")<0) {
+	//	alert("服务器目前正在维护，本次维护时间预计需要24小时，维护期间可能产生数据波动，请勿进行任何操作，以免给您带来不必要的损失。");
+	//}
+</script><!--头部位置结束-->
+		<div class="wrap">
+			<div class="clearfix">
+				<div class="nav fl">
+					<p class="center picture">
+						<img src="./蓝桥杯个人软件类省赛金奖_files/0.png" width="101" height="101">
+						<span class="h3 c-333">LQ645843</span>
+					</p>
+					<div id="leftbar">
+		                <!-- ngInclude: '/pages/dasai/common/left_personal.html' --><ul id="leftbar_personal" ng-include="&#39;/pages/dasai/common/left_personal.html&#39;" activeleft="myawards" ng-controller="indexLeftUserCtrl" class="ng-scope"><script type="text/javascript" class="ng-scope">
+<!--
+
+//-->
+/**
+ * 由于Api地址各环境不同,故写些配置文件,更改时方便配置.
+ */
+window.$STATIC_URL="http://static.lanqiao.cn";
+window.$DOWN_URL="http://down.lanqiao.cn";
+// 蓝桥帐户域名
+window.$URL_ACCOUNT = "http://dasai.lanqiao.cn";
+// 蓝桥杯大赛域名
+window.$URL_LANQIAOBEIDASAI = "http://dasai.lanqiao.cn";
+// 蓝桥第三方接口处理域名
+window.$URL_THIRDINTERFACE = "http://dasai.lanqiao.cn";
+// 蓝桥订单域名
+window.$URL_ORDER = "http://dasai.lanqiao.cn";
+
+// 图片获得 （URL后追加ID）
+window.$URL_DOWNLOAD_IMAGE = "http://dasai.lanqiao.cn"+"/api/action/oss/getImageStream/";
+
+// 首页接口域名
+window.$URL_INDEX_NEWS = "http://10.251.196.135";
+window.$MNS_LANQIAO_URL="http://mns.lanqiao.cn";
+</script>
+<li id="leftbar_myauth" class="ng-scope"><a href="http://dasai.lanqiao.cn/pages/dasai/stupersonalauth.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-safe.png">个人认证</a></li>
+<li id="leftbar_mydasai" certified="" style="" class="ng-scope"><a href="http://dasai.lanqiao.cn/pages/dasai/personal_my_dasai.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-start.png">我的大赛</a></li>
+<li id="leftbar_myawards" certified="" style="" class="ng-scope active"><a href="http://dasai.lanqiao.cn/api/stu/award/li"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-certificate.png">获奖查询</a></li>
+
+<li id="leftbar_myorder" certified="" style="" class="ng-scope"><a href="http://dasai.lanqiao.cn/pages/dasai/order/myorder.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-order.png">我的订单</a></li>
+<li id="leftbar_mymessage" class="ng-scope"><a href="http://dasai.lanqiao.cn/pages/account/message.html#/"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-message.png">我的消息</a></li>
+<li id="leftbar_address" class="ng-scope"><a href="http://dasai.lanqiao.cn/pages/account/stu_address.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-address.png">我的地址</a></li>
+<li id="leftbar_myaccount" class="ng-scope"><a href="javascript:void(0);" onclick="showMyaccountLeft()"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-account.png">账号设置</a>
+    <ul class="sec-nav" style="display: none">
+        <li><a id="accountinfoPage" href="http://dasai.lanqiao.cn/pages/account/myaccount_headimg.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-pre.png">账户信息</a></li>
+        <li><a id="account2" href="http://dasai.lanqiao.cn/pages/account/myaccount.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-pre.png">账号绑定</a></li>
+        <li><a id="accountnewpwd" href="http://dasai.lanqiao.cn/pages/account/myaccount_newpwd.html"><img src="./蓝桥杯个人软件类省赛金奖_files/icon-pre.png">修改密码</a></li>        
+    </ul>
+</li>
+<script class="ng-scope">
+$(function(){
+	if(new Date().getTime()>new Date('2018/02/28 13:30').getTime()){
+		$(".weike-banner").show();
+	}
+})	
+</script>
+</ul>
+		            </div>
+				</div>
+				<div class="divR fl relative">
+					<ul class="nav-tab-a clearfix">
+						<li class="act" data-val="1"><a href="http://dasai.lanqiao.cn/api/stu/award/li"><i class="icon-back"></i>获奖查询</a></li>						
+					</ul>
+					<div class="tab-content lq-award-result">
+						<p class="name">第八届蓝桥杯大赛软件类省赛比赛结果</p>
+						
+						<div class="lq-soft">
+							<!-- 比赛结果 -->
+							<div class="showMain relative">													
+								<p><span>姓名： </span><span>杜昊</span></p>
+								<p><span>证件号码：</span><span>320829199704180612</span></p>								
+								<p><span>比赛科目：</span><span>第八届软件类C/C++程序设计大学A组</span></p>
+								<p><span>指导老师：</span><span>--</span></p>
+								<p><span>比赛奖项：</span><span>
+									一等奖</span></p>
+								
+								<p><span style="width:auto;">是否进入决赛：</span><span>是</span></p></div>
+							</div>
+						
+					</div>
+
+					
+
+				</div>
+
+			</div>
+		</div>		
+		<!--主体内容-->
+		
+		<!--尾部位置开始-->
+		<div class="footer">
+			<div class="bg1">
+				<div class="clearfix wrap">
+					<div class="item item1">
+						<img src="./蓝桥杯个人软件类省赛金奖_files/logo-blank.png">
+						<div><a href="http://dasai.lanqiao.cn/pages/dasai/about_ours.html" target="_blank">关于我们</a></div>
+						<div><a href="http://dasai.lanqiao.cn/pages/account/user_protocol.html" target="_blank">用户协议</a></div>
+						
+					</div>
+					<div class="item item2">
+						<p class="p1">支持单位</p>
+						<p class="p2">主办单位：</p>
+						<p class="p2">工业和信息化部人才交流中心</p>
+						<p class="p2">技术支持：</p>
+						<p class="p2">国信蓝桥教育科技（北京）股份有限公司</p>
+					</div>
+					<div class="item item3">
+						<p class="p1">联系我们</p>
+						<p class="p2">地址：北京市海淀区万寿路27号工业和信息化部大院8号楼10层 </p><!--  邮编: 100846 -->
+						<p class="p2">电话：4006-588-662     传真：010-68208666 </p>
+						<p class="p2">Email：lanqiao@lanqiao.org</p>
+						<!-- <p class="p2">商务合作：010-68208668  sunll@lanqiao.org</p> -->
+						<p class="p2">商务合作：010-68208626  liyp@lanqiao.org</p>
+					</div>
+					<div class="item item4">
+						<img width="140" src="./蓝桥杯个人软件类省赛金奖_files/qrcode2.jpg">
+						<p>扫一扫关注蓝桥杯大赛</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg2">
+				<div class="clearfix wrap">
+					<p class="p1">京ICP备11024192号</p>
+					<p class="p2">京公网安备 11010802020352号</p>
+				</div>
+			</div>
+		</div>
+<script src="./蓝桥杯个人软件类省赛金奖_files/z_baidu_statistics.js" language="JavaScript"></script><!--尾部位置结束-->
+    	
+	
+
+</body></html>

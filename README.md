@@ -1,2 +1,2 @@
 # My-Profile
-* My transcripts, awards, patents and CV.
+* My awards, patents and CV.
